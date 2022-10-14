@@ -1,8 +1,8 @@
-import MyCart from "./MyCart";
+import "./styles.css";
 function App() {
   return (
-    <div>
-      <MyCart />
+    <div style={{width:'90%', margin: '0 auto'}}>
+      <index />
     </div>
   );
 }
