@@ -1,9 +1,12 @@
 import "./styles.css";
+import "./BMICalc";
+import BMICalc from "./BMICalc";
 function App() {
   return (
-    <div style={{width:'90%', margin: '0 auto'}}>
-      <index />
-    </div>
+    <>
+    <BMICalc/>
+    </>
   );
 }
+
 export default App;
